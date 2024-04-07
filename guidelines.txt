@@ -1,0 +1,34 @@
+- 4-5 Components (Home, Dashboard, etc)
+    - DONE
+        - AddBookForm
+        - BookItem
+        - BookList
+        - EditBookForm
+        - Home
+- A custom hook which should demonstrate understanding of the useEffect and useState hooks
+    - useStateInitializer (DONE)
+    - useEffectInitializer (?)
+- Fetch data from your API
+    - DONE
+- CRUD operations for your marvel characters
+    - DONE
+- Login/Logout Functionality via Firebase
+    - DONE
+        - UI Friendly Error Handling (DONE)
+- Hosting via Netlify or Firebase
+    - TBD
+- Routing via react-router-dom
+    - DONE 
+- Forms to Create/Update your data via react-hook-form
+    - AddBookForm (DONE)
+    - EditBookForm (DONE)
+    - LoginForm (DONE)
+
+--- TO DEPLOY ---
+
+In Terminal:
+
+    1) Location: /frontend
+        Command: npm run build
+    2) Location: /Final_Project
+        Command: firebase deploy --only hosting --project finalproject-75328
